@@ -20,13 +20,11 @@
 #pragma once
 
 #ifndef PROG_NAME
-#define PROG_NAME "telegram-bot"
+#define PROG_NAME "tg"
 #endif
 #define TELEGRAM_CLI_API_HASH "de6a83e2db45cd0f96f6143e566d314b"
 #define TELEGRAM_CLI_API_ID 745031
 #define TELEGRAM_CLI_VERSION "2.0"
-#define TELEGRAM_CLI_DEVICE_MODEL "sammsam"
-#define TELEGRAM_CLI_SYSTEM_VERSION "V4"
- 
+
 #define TELEGRAM_CLI_VERSION_STR \
 "Telegram-bot version " TELEGRAM_CLI_VERSION

@@ -95,10 +95,6 @@ void parse_config () /* {{{ */ {
   //config_filename = make_full_path (config_filename);
   /// Is test Telegram environment should be used instead of the production environment.
   param.use_test_dc = false;
-  /// Application identifier for Telegram API access, can be obtained at https://my.telegram.org.
-  param.api_id = TELEGRAM_CLI_API_ID;
-  /// Application identifier hash for Telegram API access, can be obtained at https://my.telegram.org.
-  param.api_hash = TELEGRAM_CLI_API_HASH;
   /// IETF language tag of users language.
   //param.language_code = "en";
   /// Model of a device application is run on.
